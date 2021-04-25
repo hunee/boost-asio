@@ -1,0 +1,3 @@
+# boost OSX
+./bootstrap.sh --prefix=/usr/local/boost-1.68.0
+sudo ./b2 cxxflags=-std=c++17 install
